@@ -99,8 +99,8 @@ const Home = () =>{
                             {call1}
                         </span>
                         <div>
-                            <h2>Buy Me a Coffee</h2>
-                            <h3>Jonathan Smart</h3>
+                            <h2 className=" text-[#131316] text-[16px] font-[Degular]">Buy Me a Coffee</h2>
+                            <h3 className="text-[14px] font-[Degular] text-[#56616b] ">Jonathan Smart</h3>
                         </div>
                         </div>
                         <div>
@@ -114,8 +114,8 @@ const Home = () =>{
                                 {call1}
                             </span>
                             <div>
-                                <h2>How to build and Online Brand</h2>
-                                <h3>Delvan Ludacris</h3>
+                                <h2 className=" text-[#131316] text-[16px] font-[Degular]">How to build and Online Brand</h2>
+                                <h3 className="text-[14px] font-[Degular] text-[#56616b] ">Delvan Ludacris</h3>
                             </div>
                         </div>
                         <div>
@@ -128,11 +128,13 @@ const Home = () =>{
                             <span className="rounded-full p-4 bg-[#F9E3E0]">
                                 {call2}
                             </span>
-                            <h2>Cash Withdrawal</h2>
-                            <h3>Successfull</h3>
+                            <div>
+                            <h2 className=" text-[#131316] text-[16px] font-[Degular]">Cash Withdrawal</h2>
+                            <h3 className="text-[14px] font-[Degular] text-[#56616b] ">Successfull</h3>
+                            </div>
                         </div>
                         <div>
-                            <h2 className="font-bold text-[16px] text-[#131316] ">USD 600</h2>
+                            <h2 className="font-bold text-[16px] text-[#131316]">USD 600</h2>
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
@@ -141,8 +143,10 @@ const Home = () =>{
                             <span className="rounded-full p-4 bg-[#E3FCF2]">
                                 {call1}
                             </span>
-                            <h2>Support My Outreach</h2>
-                            <h3>RShawn Kane</h3>
+                            <div>
+                            <h2 className=" text-[#131316] text-[16px] font-[Degular]">Support My Outreach</h2>
+                            <h3 className="text-[14px] font-[Degular] text-[#56616b]">Shawn Kane</h3>
+                            </div>
                         </div>
                         <div>
                             <h2 className="font-bold text-[16px] text-[#131316] ">USD 600</h2>
@@ -154,8 +158,10 @@ const Home = () =>{
                             <span className="rounded-full p-4 bg-[#F9E3E0]">
                                 {call2}
                             </span>
-                            <h2>Cash Withdrawal</h2>
-                            <h3>Pending</h3>
+                            <div>
+                            <h2 className=" text-[#131316] text-[16px] font-[Degular]">Cash Withdrawal</h2>
+                            <h3 className="text-[14px] font-[Degular] text-[#56616b]">Pending</h3>
+                            </div>
                         </div>
                         <div>
                             <h2 className="font-bold text-[16px] text-[#131316] ">USD 600</h2>
@@ -167,8 +173,10 @@ const Home = () =>{
                             <span className="rounded-full p-4 bg-[#E3FCF2]">
                                 {call1}
                             </span>
-                            <h2>Learn how to Pitch your idea</h2>
-                            <h3>Dujon Jericho</h3>
+                            <div>
+                            <h2 className=" text-[#131316] text-[16px] font-[Degular]">Learn how to Pitch your idea</h2>
+                            <h3 className="text-[14px] font-[Degular] text-[#56616b]">Dujon Jericho</h3>
+                            </div>
                         </div>
                         <div>
                             <h2 className="font-bold text-[16px] text-[#131316] ">USD 600</h2>
