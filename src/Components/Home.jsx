@@ -1,5 +1,7 @@
 import React from "react";
-import { appTop, productIcon2, productIcon3, productIcon4, Info, dropDown, arrowDown, call1, call2 } from "../icons";
+import { appTop, productIcon2, productIcon3, productIcon4, Info, dropDown, arrowDown, call1, call2,  } from "../icons";
+import Charts from "./Charts"
+
 
 
 const Home = () =>{
@@ -60,11 +62,15 @@ const Home = () =>{
                 </div>
             </div>
             </div>
+            <div className="w-[765px] mt-[150px] ml-[260px] p-4">
+                {/* {line} */}
+                <Charts/>
+            </div>
             <div className=" border max-w-3xl mx-auto flex justify-between">
                 <h3 className="text-[#56616B]">April 1, 2022</h3>
                 <h3 className="text-[#56616B]">April 30, 2022</h3>
             </div>
-                   <div className=" flex justify-between mx-2 mt-8">
+                   <div className=" flex justify-between mx-4 mt-8">
                         <div className="">
                             <h2 className="text-2xl font-bold">24 Transactions</h2>
                             <h3 className="text-4 text-[#56616B]">Your Transactionsfor the last 7 days</h3>
@@ -78,7 +84,7 @@ const Home = () =>{
                                 </button>
                             </div>
                     </div> 
-                <div className="flex justify-between mx-2 mt-8">
+                <div className="flex justify-between mx-4 mt-8">
                         <div className="flex justify-between items-center gap-4">
                             <span className="rounded-full p-4 bg-[#E3FCF2]">
                             {call1}
