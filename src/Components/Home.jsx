@@ -47,23 +47,22 @@ const Home = () =>{
                         USD 0.00
                     </div>
                 </div>
-            <div className=" max-w-sm w-14 rounded-full  mx-2 h-40 border p-4 ">
-                <div className=" py-1 ">
-                {appTop}
-                </div>
-                <div className="py-1">
-                {productIcon2}
-                </div>
-                <div className="py-1">
-                {productIcon3}
-                </div>
-                <div className="py-1">
-                {productIcon4}
+                <div className=" max-w-sm w-14 rounded-full  mx-2 h-40 border p-4 ">
+                    <div className=" py-1 ">
+                    {appTop}
+                    </div>
+                    <div className="py-1">
+                    {productIcon2}
+                    </div>
+                    <div className="py-1">
+                    {productIcon3}
+                    </div>
+                    <div className="py-1">
+                    {productIcon4}
+                    </div>
                 </div>
             </div>
-            </div>
-            <div className="w-[765px] mt-[150px] ml-[260px] p-4">
-                {/* {line} */}
+            <div className=" ml-60 max-w-4xl pl-40 ">
                 <Charts/>
             </div>
             <div className=" border max-w-3xl mx-auto flex justify-between">
