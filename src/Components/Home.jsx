@@ -62,7 +62,7 @@ const Home = () =>{
                     </div>
                 </div>
             </div>
-            <div className=" ml-60 max-w-4xl pl-40 ">
+            <div className="flex justify-center pl-40">
                 <Charts/>
             </div>
             <div className=" border max-w-3xl mx-auto flex justify-between">
