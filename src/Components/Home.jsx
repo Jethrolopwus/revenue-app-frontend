@@ -17,37 +17,37 @@ const Home = () =>{
                 </div>
             </div>
             <div>
-                <div className=" h-24 ml-[68rem]  ">
-                    <div className=" flex justify-between items-center text-[#56616B] font-[Degular]" >
+                <div className=" h-24 ml-[68rem] mx-40 ">
+                    <div className=" flex justify-between items-center mt-8 text-[#56616B] font-[Degular]" >
                         Ledger Balance
                         {Info}
                     </div>
-                    <div className="font-bold text-[#131316] text-2xl">
+                    <div className="font-bold text-[#131316] mt-4  text-2xl">
                         USD 0.00
                     </div>
-                    <div className=" flex justify-between items-center text-[#56616B] font-[Degular]" > 
+                    <div className=" flex justify-between items-center mt-8 text-[#56616B] font-[Degular]" > 
                         Total Payout
                         {Info}
                     </div>
-                    <div className="font-bold text-[#131316] text-2xl">
+                    <div className="font-bold text-[#131316] mt-4 text-2xl">
                         USD 55,080.00
                     </div>
-                    <div className="flex justify-between items-center text-[#56616B] font-[Degular]" >
+                    <div className="flex justify-between items-center mt-8 text-[#56616B] font-[Degular]" >
                         Total Revenue
                         {Info}
                     </div>
-                    <div className="font-bold text-[#131316] text-2xl">
+                    <div className="font-bold text-[#131316] mt-4 text-2xl">
                         USD 175,580.00
                     </div>
-                    <div className=" flex justify-between items-center text-[#56616B] font-[Degular]">
+                    <div className=" flex justify-between mt-8 items-center text-[#56616B] font-[Degular]">
                         Pending Payout
                         {Info}
                     </div>
-                    <div className="font-bold text-[#131316] text-2xl ">
+                    <div className="font-bold text-[#131316] mt-4 text-2xl ">
                         USD 0.00
                     </div>
                 </div>
-                <div className=" max-w-sm w-14 rounded-full  mx-2 h-40 border p-4 ">
+                <div className=" max-w-sm w-14 rounded-full fixed mx-2 h-40 border p-4 ">
                     <div className=" py-1 ">
                     {appTop}
                     </div>
@@ -62,14 +62,15 @@ const Home = () =>{
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center pl-40">
+            <div className="mx-40">
                 <Charts/>
+                <div className="border-gray-200 max-w-[610px] border-2 mt-2"></div>
             </div>
-            <div className=" border max-w-3xl mx-auto flex justify-between">
+            <div className="max-w-2xl mx-40 flex justify-between mt-2">
                 <h3 className="text-[#56616B]">April 1, 2022</h3>
                 <h3 className="text-[#56616B]">April 30, 2022</h3>
             </div>
-                   <div className=" flex justify-between mx-4 mt-8">
+                   <div className=" flex justify-between mx-40 mt-4">
                         <div className="">
                             <h2 className="text-2xl font-bold">24 Transactions</h2>
                             <h3 className="text-4 text-[#56616B]">Your Transactionsfor the last 7 days</h3>
@@ -81,9 +82,11 @@ const Home = () =>{
                                 <button className="flex items-center bg-[#EFF1F6] gap-4 text-xl px-2 mx-4 border h-8 my-4 rounded-full">Export List 
                                 {arrowDown}
                                 </button>
-                            </div>
+                            </div>       
                     </div> 
-                <div className="flex justify-between mx-4 mt-8">
+                    <div className="border-gray-200 my-4 mx-32 border"></div>
+                    
+                <div className="flex justify-between mx-40 mt-8">
                         <div className="flex justify-between items-center gap-4">
                             <span className="rounded-full p-4 bg-[#E3FCF2]">
                             {call1}
@@ -98,7 +101,7 @@ const Home = () =>{
                         <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-2 mt-8">
+                    <div className="flex justify-between mx-40 mt-4">
                         <div className="flex justify-between items-center gap-4 ">
                         <span className=" rounded-full p-4 bg-[#E3FCF2]">
                             {call1}
@@ -113,7 +116,7 @@ const Home = () =>{
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-2 mt-8">
+                    <div className="flex justify-between mx-40 mt-4">
                         <div className="flex justify-between items-center gap-4">
                             <span className=" rounded-full p-4 bg-[#E3FCF2]">
                                 {call1}
@@ -128,7 +131,7 @@ const Home = () =>{
                         <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-2 mt-8">
+                    <div className="flex justify-between mx-40 mt-4">
                         <div className="flex justify-between items-center gap-4">
                             <span className="rounded-full p-4 bg-[#F9E3E0]">
                                 {call2}
@@ -143,7 +146,7 @@ const Home = () =>{
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-2 mt-8">
+                    <div className="flex justify-between mx-40 mt-4">
                         <div className="flex justify-between items-center gap-4">
                             <span className="rounded-full p-4 bg-[#E3FCF2]">
                                 {call1}
@@ -158,12 +161,12 @@ const Home = () =>{
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-2 mt-8">
+                    <div className="flex justify-between mx-40 mt-4">
                         <div className="flex justify-between items-center gap-4">
                             <span className="rounded-full p-4 bg-[#F9E3E0]">
                                 {call2}
                             </span>
-                            <div>
+                            <div className="">
                             <h2 className=" text-[#131316] text-[16px] font-[Degular]">Cash Withdrawal</h2>
                             <h3 className="text-[14px] font-[Degular] text-[#56616b]">Pending</h3>
                             </div>
@@ -173,7 +176,7 @@ const Home = () =>{
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-2 mt-8">
+                    <div className="flex justify-between mx-40 mt-4">
                         <div className="flex justify-between items-center gap-4">
                             <span className="rounded-full p-4 bg-[#E3FCF2]">
                                 {call1}
@@ -187,6 +190,8 @@ const Home = () =>{
                             <h2 className="font-bold text-[16px] text-[#131316] ">USD 600</h2>
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
+                    </div>
+                    <div className="flex justify-between mx-40 mt-8">
                     </div>
         </section>
         
