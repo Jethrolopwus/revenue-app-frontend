@@ -39,11 +39,11 @@ const Home = () =>{
                     <div className="font-bold text-[#131316] mt-4 text-2xl">
                         USD 175,580.00
                     </div>
-                    <div className=" flex justify-between mt-8 items-center text-[#56616B] font-[Degular]">
+                    <div className=" flex justify-between mt-2 items-center text-[#56616B] font-[Degular]">
                         Pending Payout
                         {Info}
                     </div>
-                    <div className="font-bold text-[#131316] mt-4 text-2xl ">
+                    <div className="font-bold text-[#131316] mt-2 text-2xl ">
                         USD 0.00
                     </div>
                 </div>
@@ -66,11 +66,11 @@ const Home = () =>{
                 <Charts/>
                 <div className="border-gray-200 max-w-[610px] border-2 mt-2"></div>
             </div>
-            <div className="max-w-2xl mx-40 flex justify-between mt-2">
+            <div className="max-w-2xl mx-40 flex justify-between">
                 <h3 className="text-[#56616B]">April 1, 2022</h3>
                 <h3 className="text-[#56616B]">April 30, 2022</h3>
             </div>
-                   <div className=" flex justify-between mx-40 mt-4">
+                   <div className=" flex justify-between mx-40 mt-20">
                         <div className="">
                             <h2 className="text-2xl font-bold">24 Transactions</h2>
                             <h3 className="text-4 text-[#56616B]">Your Transactionsfor the last 7 days</h3>
