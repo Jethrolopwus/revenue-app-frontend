@@ -1,6 +1,6 @@
 import React from "react";
-import { appTop, productIcon2, productIcon3, productIcon4, Info, dropDown, arrowDown, call1, call2,  } from "../icons";
-import Charts from "./Charts"
+import { appTop, productIcon2, productIcon3, productIcon4, Info, dropDown, arrowDown, call1, call2, line2  } from "../icons";
+// import Charts from "./Charts"
 
 
 
@@ -63,8 +63,9 @@ const Home = () =>{
                 </div>
             </div>
             <div className="mx-40">
-                <Charts/>
-                <div className="border-gray-200 max-w-[610px] border-2 mt-2"></div>
+                {/* <Charts/> */}
+                 {line2}
+                <div className="border-gray-200 max-w-[770px] border-2 mt-2"></div>
             </div>
             <div className="max-w-2xl mx-40 flex justify-between">
                 <h3 className="text-[#56616B]">April 1, 2022</h3>
@@ -191,7 +192,7 @@ const Home = () =>{
                             <h3 className="text-[#56616B] text-[14px] font-[Degular]">April 03, 2022</h3>
                         </div>
                     </div>
-                    <div className="flex justify-between mx-40 mt-8">
+                    <div className="mt-12">
                     </div>
         </section>
         

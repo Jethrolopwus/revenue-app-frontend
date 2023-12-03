@@ -118,7 +118,7 @@ export const call2 = <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
 <path d="M0.999837 11.5833L0.416504 11L10.4998 0.916677H4.4165V0.0833435H11.9165V7.58334H11.0832V1.50001L0.999837 11.5833Z" fill="#961100"/>
 </svg>
 
-export const line = <svg width="767" height="178" viewBox="0 0 767 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const line2 = <svg width="767" height="178" viewBox="0 0 767 178" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1 177L166.916 21.336C211.748 -20.7264 285.462 6.79004 292.871 67.8171V67.8171C293.287 71.2484 293.981 74.6685 294.939 77.9895V77.9895C308.165 123.839 364.75 140.125 400.326 108.322L480.44 36.7048C538.095 -14.8352 627.475 -6.14781 674.126 55.5303L766 177" stroke="#FF5403" stroke-linecap="round"/>
 </svg>
 
